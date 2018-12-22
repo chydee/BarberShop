@@ -1,0 +1,79 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Book Now</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+  <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+        <div class="header">
+                <h1><a href="index.html"> Just Cut</a></h1>
+                <div class="header-right">
+                      <a href="index.html">Home</a>
+                      <a href="gal.html">Gallery</a>
+                      <a class="active" href="book.html">Book an Appointment</a>
+                      <a href="services.html">Services</a>
+                      <a href="about.html">About</a>
+                      <a href="contact.html">Contact</a>
+                </div>
+              </div> 
+              <br><br>
+
+              <div class="container">
+                  <hr width="70%">
+                  <br>
+                <h3> BOOK AN APPOINTMENT</h3>
+                <br>
+                <hr width="70%">
+                <br><br>
+                    <form action="just_cut.php" method="POST">
+                  
+                      <label for="name"></label> Name</label>
+                      <input type="text" id="name" name="fullname" placeholder="Enter your full name...">
+                  
+                      <label for="email">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Your emial...">
+
+                      <label for="Phone">Phone</label>
+                      <input type="number" id="phone" name="phone" placeholder="Your Phone number...">
+
+                      <label for="Date">Date</label>
+                      <input type="date" id="date" name="date" placeholder="Your Date of visit...">
+
+                      <label for="Time">Time</label>
+                      <input type="time" id="time" name="time" placeholder="Your Time of Visit...">
+                  
+                      <label for="country">Location</label>
+                      <select id="country" name="country">
+                        <option value="South-Africa">South-Africa</option>
+                        <option value="Lagos">Lagos</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write a subject here..." style="height:200px"></textarea>
+
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                  <br>
+                  <br>
+                  <hr width="70%">
+                  <br>
+                <h3> THANK YOU FOR BOOKING AN APPOINTMENT WITH US &nbsp; &nbsp;<i class="fas fa-handshake"></i></h3>
+                <br>
+                <hr width="70%">
+                <br><br>
+
+              <!-- The footer-->
+  <div class="footer">
+    <p>
+      Copyright &copy; <script>document.write(new Date().getFullYear());</script> NGWUTA DESMOND || 201235020207
+      </p>
+</body>
+</html>
